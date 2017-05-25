@@ -89,7 +89,7 @@
     QqcProgressHUD *hud = [QqcProgressHUD showHUDAddedTo:view animated:YES];
     hud.mode = QqcProgressHUDModeCustomView;
     hud.labelText = string;
-    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageFromBundleWithName:@"success.png" bundleName:@"QqcBaseFrameworkRES"]];
+    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageFromBundleWithName:@"success.png" bundleName:@"QqcProgressHUD"]];
     hud.removeFromSuperViewOnHide = YES;
     [hud hide:YES afterDelay:2.0];
     return hud;
@@ -106,7 +106,7 @@
     QqcProgressHUD *hud = [QqcProgressHUD showHUDAddedTo:view animated:YES];
     hud.mode = QqcProgressHUDModeCustomView;
     hud.labelText = string;
-    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageFromBundleWithName:@"error.png" bundleName:@"QqcBaseFrameworkRES"]];
+    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageFromBundleWithName:@"error.png" bundleName:@"QqcProgressHUD"]];
     hud.removeFromSuperViewOnHide = YES;
     [hud hide:YES afterDelay:2.0];
     return hud;
